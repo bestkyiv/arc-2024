@@ -9,7 +9,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1000px;
 }
 
 .desktop{
@@ -24,5 +23,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     width: 100%;
+}
+
+@media (max-width: 992px) {
+    .blocks{
+        gap: 0;
+    }
+}
+
+.separator{
+    width: 50%;
+    max-width: 640px;
 }

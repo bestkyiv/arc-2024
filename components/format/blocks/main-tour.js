@@ -15,7 +15,7 @@ export default function MainTour({}) {
   return (
     <svg
       className={classes.desktop}
-      viewBox="0 0 1750 880"
+      viewBox="0 0 1750 875"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

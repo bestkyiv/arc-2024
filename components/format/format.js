@@ -20,5 +20,5 @@ export default function Format() {
 }
 
 function Separator() {
-  return <img src={"separator.svg"} width={"50%"} />;
+  return <img src={"separator.svg"} className={classes.separator} />;
 }

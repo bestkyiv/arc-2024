@@ -7,13 +7,13 @@ export default function TermsOfParticipation() {
   const terms = [
     "Будь студентом будь-якого українського ВНЗ",
     `Зареєструйся до ${formatDate(new Date(Constants.PROJECT_REGISTRATION_DEADLINE))}`,
-    "Потрап в команду або сформуй свою (max - 4)",
-    "Пройди відбірні завдання",
+    "Потрапити до команди або сформувати свою (2 - 4 учасника)",
+    "Пройди відбірковий тур змагань",
   ];
 
   const textStyle = {
     fontFamily: "Kreadon Bold",
-    fontSize: "46px",
+    fontSize: "40px",
     fill: "white",
   };
 

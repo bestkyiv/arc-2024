@@ -12,7 +12,7 @@ export default function DesktopSvg({}) {
   return (
     <svg
       className={classes.desktop}
-      viewBox="0 0 1750 550"
+      viewBox="0 -295 1750 841"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

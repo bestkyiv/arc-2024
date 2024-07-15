@@ -7,7 +7,7 @@ export default function Categories() {
   const flippingCards = Object.values(CONSTANTS.CATEGORIES);
 
   return (
-    <div className={classes.categories + " section"} id={"categories"}>
+    <div className={classes.categories} id={"categories"}>
       <Title title={"Categories"} />
       <div className={classes.cards}>
         {flippingCards.map((card, i) => (
