@@ -31,10 +31,7 @@
 }
 
 @media (max-width: 676px){
-    .word{
-        font-size: 55px;
-    }
-    .first-letter{
-        font-size: 55px;
+    .word, .first-letter{
+        font-size: 48px;
     }
 }

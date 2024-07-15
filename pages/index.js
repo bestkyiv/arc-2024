@@ -15,6 +15,7 @@ import AboutBest from "@/components/about-best/about-best";
 import Faq from "@/components/faq/faq";
 import Panel from "@/components/header-frame/panel";
 import SocialNetworks from "@/components/social-networks/social-networks";
+import Format from "@/components/format/format";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,11 +26,12 @@ export default function App() {
         <HeaderFrame />
         <Panel />
         <About />
+        <Format />
         <Categories />
         <TermsOfParticipation />
-        <Partners />
+        {/*<Partners />*/}
         <Organizers />
-        <AboutBest />
+        {/*<AboutBest />*/}
         <Faq />
       </main>
       <footer>

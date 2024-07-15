@@ -2,8 +2,8 @@ import CONSTANTS from "@/constants";
 import classes from "@/components/categories/flipping-card.module.css";
 
 export default function InnovativeDesignBack() {
-  const header = CONSTANTS.CATEGORIES.INNOVATIVE_DESIGN.header;
-  const linesOfText = CONSTANTS.CATEGORIES.INNOVATIVE_DESIGN.text;
+  // const header = CONSTANTS.CATEGORIES.INNOVATIVE_DESIGN.header;
+  // const linesOfText = CONSTANTS.CATEGORIES.INNOVATIVE_DESIGN.text;
 
   const style = {
     fill: "white",

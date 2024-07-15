@@ -1,29 +1,54 @@
 module.exports = {
-  PROJECT_DATE_FROM: "2023-11-06T14:00:00.000Z",
-  PROJECT_DATE_TO: "2023-11-13",
-  PROJECT_REGISTRATION_DEADLINE: "2023-10-17",
-  PROJECT_REGISTRATION_DEADLINE_PROLONGED: "2023-10-21",
+  PROJECT_DATE_FROM: "2024-09-27T14:00:00.000Z",
+  PROJECT_DATE_TO: "2024-09-30",
+  PROJECT_REGISTRATION_DEADLINE: "2024-09-02",
+  PROJECT_REGISTRATION_DEADLINE_PROLONGED: "2024-09-07",
   FORMAT: "offline",
-  REGISTRATION_LINK:
-    "https://docs.google.com/forms/d/e/1FAIpQLSei4Aa2vMfd9F2ZSus63vMrZnOSOz0Tm91-5slZStzendAWHg/viewform",
-  CATEGORIES: {
-    CASE_STUDY: {
-      header: "Case study",
+  REGISTRATION_LINK: "https://forms.gle/hx3QaZ9Yjy6oYBudA",
+  CATEGORIES: [
+    {
+      header: "Military-Tech",
       text: [
-        "Запропонуй інновативне",
-        "вирішення поставленої проблеми",
-        "та презентуй свою ідею",
+        "Відчуй себе техногенним героєм!",
+        "Розробляй інноваційні рішення, які",
+        "допоможуть захистити нашу країну",
+        "і наблизити до перемоги.",
       ],
     },
-    INNOVATIVE_DESIGN: {
-      header: "Innovative design",
+    {
+      header: "Mechanics",
       text: [
-        "Створи власне інженерне диво",
-        "з необхідним функціоналом",
-        "для вирішення поставленої задачі",
+        "Зроби залізо рухомим! Роботи,",
+        "машини, механізми – покажи, що",
+        "залізо теж може танцювати.",
       ],
     },
-  },
+    {
+      header: "Radio Engineering",
+      text: [
+        "Поринь у світ радіохвиль і антен!",
+        "Стань справжнім майстром зв'язку,",
+        "який завжди на хвилі.",
+      ],
+    },
+    {
+      header: "Electronics",
+      text: [
+        "Створи свою власну",
+        "електронну магію! Від",
+        "мікросхем до світлодіодів – все",
+        "це твоє поле гри.",
+      ],
+    },
+    {
+      header: "Urban planning",
+      text: [
+        "Перетвори місто на мрію! Розробляй",
+        "ідеї, які зроблять урбаністичні",
+        "джунглі зручнішими і зеленішими.",
+      ],
+    },
+  ],
   PARTNERS: {
     CAREER: [
       { img: "melexis.svg", alt: "Melexis", link: "https://www.melexis.com/" },
@@ -85,69 +110,69 @@ module.exports = {
   ORGANIZERS: [
     {
       position: "Main Organizer",
-      name: "Павло Сірук",
-      email: "paul.sirius.02@gmail.com",
+      name: "Дахал Крістіна",
+      email: "kristina.dakhal@best-kyiv.org",
       image: "mo.png",
     },
     {
       position: "CR Resp",
-      name: "Маргарита Войцешук",
-      email: "rita.voitseshuk@best-kyiv.org",
+      name: "Таранич Артем",
+      email: "artem.taranych@best-kyiv.org",
       image: "cr.png",
     },
     {
-      position: "Pax Resp",
-      name: "Олена Бондаренко",
-      email: "lenabondarenko@best-kyiv.org",
-      image: "pax.png",
-    },
-    {
       position: "PR Resp",
-      name: "Даша Белінська",
-      email: "daryna.belinska@best-kyiv.org",
+      name: "Тригуб Діана",
+      email: "diana.tryhub@gmail.com",
       image: "pr.png",
     },
     {
-      position: "Marketing Designer",
-      name: "Віктор Шоломинський",
-      email: "sholomynskij.v@gmail.com",
-      image: "marketing.png",
-    },
-    {
-      position: "Brand Designer",
-      name: "Олександра Василенко",
-      email: "sanchoysvasilev@gmail.com",
-      image: "brand.png",
-    },
-    {
       position: "HR Resp",
-      name: "Крістіна Дахал",
-      email: "kristina.dakhal@best-kyiv.org",
+      name: "Шоломинський Віктор",
+      email: "sholomynskij.v@gmail.com",
       image: "hr.png",
     },
     {
       position: "Media Resp",
-      name: "Михайло Алєксєєв",
-      email: "mihail.alekseev@best-kyiv.org",
+      name: "Моргун Олександра",
+      email: "sashamorgun2002@gmail.com",
       image: "media.png",
     },
     {
+      position: "Marketing Designer",
+      name: "Шрамко Діана",
+      email: "shramkodiana03@gmail.com",
+      image: "marketing.png",
+    },
+    {
+      position: "Brand Designer",
+      name: "Василенко Олександра",
+      email: "sanchoysvasilev@gmail.com",
+      image: "brand.png",
+    },
+    {
+      position: "Barter Resp",
+      name: "Мороз Владислав",
+      email: "vladyslav.moroz@best-kyiv.org",
+      image: "barter.png",
+    },
+    {
       position: "Logist",
-      name: "Діана Лісовська",
-      email: "diana.lisovska@best-kyiv.org",
+      name: "Карачевцева Вікторія",
+      email: "vika.karachevceva@gmail.com",
       image: "logist.png",
     },
     {
       position: "Topic Resp",
-      name: "Михайло Воронов",
-      email: "mykhailovoronov@gmail.com",
+      name: "Шкіца Ярослав",
+      email: "shkitsa14@gmail.com",
       image: "topic.png",
     },
     {
-      position: "Day Resp",
-      name: "Олег Борисевич",
-      email: "borysevych.oleh87@gmail.com",
-      image: "day.png",
+      position: "Pax Resp",
+      name: "Комар Анастасія",
+      email: "nastasiia.komar@gmail.com",
+      image: "pax.png",
     },
   ],
   ABOUT_BEST_ABBREVIATION: "BEST — Board of European Students of Technology. ",
@@ -162,12 +187,12 @@ module.exports = {
     },
     {
       question: "Хто може взяти участь?",
-      answer: "У змаганнях можуть брати участь студенти київських ЗВО",
+      answer: "У змаганнях можуть брати участь студенти всіх ЗВО України",
     },
     {
       question: "Де відбуваються змагання?",
       answer:
-        "Більша частина проєкту буде проходити на КПІ. Деталі шукайте в наших соцмережах!",
+        "Основний тур змагань проводитиметься у Києві, а більш детальну інформацію ми надамо тобі після реєстрації",
     },
     {
       question: "Яка кількість людей у команді?",
@@ -178,10 +203,6 @@ module.exports = {
       answer: "Реєструйся, і ми підберемо тобі команду",
     },
     {
-      question: "В якому форматі проводяться змагання?",
-      answer: "Змагання відбудуться в офлайн форматі",
-    },
-    {
       question: "Що відбувається в разі повітряної тривоги?",
       answer:
         "В разі оголошення повітряної тривоги змагання зупиняються. Усіх учасників просимо прямувати до найближчого укриття",
@@ -189,7 +210,7 @@ module.exports = {
     {
       question: "Який необхідний рівень знань для участі?",
       answer:
-        "Для участі потрібні знання в сферах інженерії або бізнес-аналізу. Їх наявність буде перевірена на етапі відбору!",
+        "Для участі потрібні знання в сферах інженерії. Їх наявність буде перевірена на етапі відбору!",
     },
   ],
   SOCIAL_NETWORKS: [

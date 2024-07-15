@@ -34,3 +34,35 @@
 .p{
     -webkit-text-stroke: 1px #FFB904;
 }
+
+
+
+/* previous */
+
+.format-and-date{
+    width: 85%;
+    padding: 24px 46px;
+    display: inline-block;
+    font-family: 'Black Ops One';
+    font-size: 3vw;
+    color: #FFFFFF;
+    background-color: rgb(66, 1, 155, 0.26);
+    border: 4px solid #FFB904;
+    grid-area: formatAndDate;
+    justify-self: center;
+    text-align: center;
+    box-shadow: 0 0 10px #FFB904;
+}
+
+@media (max-width: 676px) {
+    .format-and-date{
+        padding: 12px 30px;
+        max-width: 500px;
+        font-size: 30px;
+        margin: 0 10px;
+    }
+}
+
+.format-and-date-p{
+    -webkit-text-stroke: 1px #FFB904;
+}

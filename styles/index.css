@@ -89,7 +89,7 @@ html {
 }
 
 body {
-    background-color: #07001B;
+    background-color: #0C0538;
     margin: 0;
     padding: 0;
     border: 0;
@@ -295,7 +295,7 @@ body{
 }
 
 .section {
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 0 auto;
 }
 
@@ -311,6 +311,12 @@ input {
 main {
     position: relative;
     overflow: clip;
+}
+
+.svg-text-style{
+    font-family: "Kreadon Bold";
+    font-size: 54px;
+    fill: white;
 }
 
 

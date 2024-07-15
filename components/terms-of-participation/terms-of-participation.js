@@ -1,39 +1,20 @@
+import Constants from "../../constants";
 import Title from "@/components/title";
 import classes from "@/components/terms-of-participation/terms-of-participation.module.css";
+import { formatDate } from "@/helpers/date-helper";
+
 export default function TermsOfParticipation() {
   const terms = [
-    "Будь студентом будь-якого київського ВНЗ",
-    "Обери: Innovative Design або Case study",
-    "Зареєструйся до 16/10/2023",
+    "Будь студентом будь-якого українського ВНЗ",
+    `Зареєструйся до ${formatDate(new Date(Constants.PROJECT_REGISTRATION_DEADLINE))}`,
     "Потрап в команду або сформуй свою (max - 4)",
     "Пройди відбірні завдання",
   ];
-
-  const divStyle = {
-    display: "inline-block",
-    border: "2px solid #FFB800",
-    height: "5px",
-  };
-  const style = {
-    fontFamily: "Black Ops One",
-    fontSize: "78px",
-    fill: "white",
-  };
 
   const textStyle = {
     fontFamily: "Kreadon Bold",
     fontSize: "46px",
     fill: "white",
-  };
-
-  const lastStyle = {
-    ...style,
-    fontSize: "60px",
-  };
-
-  const imgStyle = {
-    width: "100px",
-    height: "100px",
   };
 
   return (
@@ -98,14 +79,6 @@ function Desktop({ terms, textStyle }) {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M116 382H131V397H116V382Z"
-        stroke="#FFB800"
-        stroke-opacity="0.92"
-        stroke-width="4"
-      />
-      <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M116 461H131V476H116V461Z"
         stroke="#FFB800"
         stroke-opacity="0.92"
         stroke-width="4"

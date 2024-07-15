@@ -7,7 +7,7 @@ export default function RegistrationButton({ gridArea }) {
 
   return (
     <div className={classes.registration} onClick={handleClick}>
-      <p className={classes.text}>Registration</p>
+      <p className={classes.text}>Click to register</p>
     </div>
   );
 }

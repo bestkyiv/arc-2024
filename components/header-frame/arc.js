@@ -1,17 +1,18 @@
 import classes from "./arc.module.css";
-export default function Arc({ fontSize }) {
-  const words = ["Assemble", "Research", "Compete"];
+
+export default function Arc({}) {
+  const words = ["Assemble", "Research", "Competition"];
 
   return (
     <div className={classes.arc}>
       {words.map((word) => (
-        <ArcSingleWord key={word} text={word} fontSize={fontSize} />
+        <ArcSingleWord key={word} text={word} />
       ))}
     </div>
   );
 }
 
-function ArcSingleWord({ text, fontSize = 128 }) {
+function ArcSingleWord({ text }) {
   const firstLetter = text.at(0);
   const restLetters = text.slice(1);
 

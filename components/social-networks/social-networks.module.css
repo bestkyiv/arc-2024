@@ -51,6 +51,7 @@
         height: 80px;
         width: 100vw;
         margin-top: 100px;
+        padding: 1rem 3rem;
     }
     .social-networks::before {
         width: 100vw;
@@ -58,7 +59,7 @@
     }
     .icon{
         height: 65%;
-        margin: 8px 12px 0;
+        margin: 8px 8px 0;
     }
 
 }

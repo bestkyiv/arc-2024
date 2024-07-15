@@ -27,7 +27,8 @@
 @media (max-width: 676px){
     .grid{
         margin: 30px auto 0;
-        max-width: 320px;
+        max-width: 400px;
+        min-width: 320px;
         grid-template-areas:
             "arc arc"
             "formatAndDate formatAndDate"

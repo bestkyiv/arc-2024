@@ -25,4 +25,7 @@
     .img{
         display: none;
     }
+    .row{
+        padding-top: 0;
+    }
 }

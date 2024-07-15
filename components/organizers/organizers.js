@@ -1,6 +1,7 @@
 import Title from "@/components/title";
 import classes from "./organizers.module.css";
 import CONSTANTS from "../../constants";
+
 export default function Organizers() {
   const organizers = CONSTANTS.ORGANIZERS;
   return (

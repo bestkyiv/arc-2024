@@ -8,13 +8,14 @@ import { useCountdown } from "@/hooks/useCountdown";
 
 export default function HeaderFrame() {
   const [days, hours, minutes, seconds] = useCountdown();
+  const isRegistrationAvailable =
+    new Date(Date.now()).getTime() <
+    new Date(CONSTANTS.PROJECT_REGISTRATION_DEADLINE_PROLONGED).getTime();
+
   return (
     <div className={classes["header-frame"]}>
       <div className={classes.grid}>
-        {new Date(Date.now()) <
-        new Date(CONSTANTS.PROJECT_REGISTRATION_DEADLINE_PROLONGED) ? (
-          <RegistrationButton />
-        ) : null}
+        {isRegistrationAvailable ? <RegistrationButton /> : false}
         <Countdown
           days={days}
           hours={hours}

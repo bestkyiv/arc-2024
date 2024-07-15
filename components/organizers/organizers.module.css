@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    padding-top: 20vh;
+    /*padding-top: 20vh;*/
 }
 
 .container{
@@ -57,7 +57,7 @@
 .organizer:nth-child(n + 9) {
     grid-column: span 4;
     justify-self: center;
-    margin: 0 20px;
+    /*margin: 0 20px;*/
 }
 
 .row{
@@ -85,6 +85,8 @@
 
     transform: translate(-50%, 5%);
     font-family: 'Press Start 2P';
+
+    filter: drop-shadow(1px 1px #C823F0);
     font-size: 8px;
     left: 50%;
     text-align: center;

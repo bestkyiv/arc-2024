@@ -2,8 +2,6 @@
 .flip-card {
     cursor: pointer;
     perspective: 1000px;
-    width: 40%;
-    height: 50%;
     position: relative;
     transition: transform 0.5s;
     filter: drop-shadow(0 0 10px #41009C);
@@ -51,4 +49,18 @@
     .img{
         height: 100%;
     }
+}
+
+.svg-text{
+    font-size: 32px;
+}
+
+.svg-header, .svg-back-header{
+    fill: #FFB904;
+    font-family: 'Black Ops One';
+}
+
+.svg-back-header{
+    fill: white;
+    text-align: center;
 }

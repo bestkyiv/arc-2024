@@ -1,5 +1,6 @@
 import classes from "./social-networks.module.css";
 import CONSTANTS from "../../constants";
+
 export default function SocialNetworks() {
   const socialNetworks = CONSTANTS.SOCIAL_NETWORKS;
   return (

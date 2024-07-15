@@ -1,5 +1,5 @@
 .about {
-    height: 100vh;
+    /*height: 100vh;*/
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@
 @media (max-width: 676px){
     .mobile{
         width: 80vw;
-        height: 100vh;
+        /*height: 100vh;*/
     }
     .desktop{
         display: none;
