@@ -17,6 +17,12 @@
     margin-bottom: 0;
 }
 
+.mobile{
+    max-width: 80vw;
+    max-height: 50vh;
+    margin-bottom: 0;
+}
+
 .blocks{
     margin: 32px auto;
     display: flex;
@@ -36,4 +42,18 @@
 .separator{
     width: 50%;
     max-width: 640px;
+}
+
+@media (min-width: 677px) {
+    .mobile {
+        display: none;
+    }
+}
+@media (max-width: 676px){
+    .mobile{
+        margin: 20px auto;
+    }
+    .desktop, .separator{
+        display: none;
+    }
 }

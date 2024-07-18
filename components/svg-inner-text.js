@@ -5,12 +5,14 @@ export default function SvgInnerText({
   step = 80,
   customClassName = "",
   centerText = false,
+  isMobile = false,
 }) {
+  const className = isMobile ? "svg-text-style-mobile" : "svg-text-style";
   return (
     <text textAnchor={centerText ? "middle" : ""}>
       {textLines.map((line, i) => (
         <tspan
-          className={`svg-text-style + ${customClassName}`}
+          className={`${className} ${customClassName}`}
           x={centerText ? "50%" : startXCoord}
           y={startYCoord + i * step}
           key={line}

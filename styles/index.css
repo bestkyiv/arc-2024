@@ -319,4 +319,10 @@ main {
     fill: white;
 }
 
+.svg-text-style-mobile{
+    font-family: "Kreadon Bold";
+    font-size: 18px;
+    fill: white;
+}
+
 

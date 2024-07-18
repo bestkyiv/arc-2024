@@ -2,6 +2,15 @@ import classes from "@/components/format/format.module.css";
 import SvgInnerText from "@/components/svg-inner-text";
 
 export default function MainTour({}) {
+  return (
+    <>
+      <Desktop />
+      <Mobile />
+    </>
+  );
+}
+
+function Desktop() {
   const textLines = [
     "Під час основного туру перед вами поставлять",
     "реальну інженерну проблему, нададуть усі необхідні",
@@ -28,6 +37,48 @@ export default function MainTour({}) {
         stroke-miterlimit="16"
       />
       <SvgInnerText textLines={textLines} startYCoord={190} />
+    </svg>
+  );
+}
+
+function Mobile() {
+  const textLines = [
+    "Під час основного туру перед",
+    "вами поставлять реальну",
+    "інженерну проблему, нададуть",
+    "усі необхідні матеріали та 16",
+    "годин на її розв'язання (по 8",
+    "годин у перший та другий",
+    "день). За цей час вам потрібно",
+    "спроєктувати або ж",
+    "сконструювати модель",
+    "власноруч, що розв’яже",
+    "поставлену задачу (залежно",
+    "від обраної категорії).",
+  ];
+
+  return (
+    <svg
+      className={classes.mobile}
+      viewBox="0 0 331 390"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.05333 320.868L2.04262 357.523L51.1004 357.521L53.4353 357.523L53.4352 383.015L105 383.015L134.976 382.887L158.725 382.906L163.494 382.91L223.613 382.958L228.381 382.962L261 383.014L281.5 352.974L316.43 352.974L316.431 256.718L329.001 219.894L329.001 189.681L329.001 121.227L329.001 103.205L329.001 45.7165L316.431 35.5714L299.024 19.9616L299.024 2.23882L270 2.23875L163.494 2.23882L60.5001 2.2389L30.5001 2.23888L8.69084 2.23886L8.69113 19.9632L2.19114 27.8993L2.13663 129.134L15.1633 142.097L15.1629 249.466L2.05332 294.454L2.05333 320.868Z"
+        fill="#42019B"
+        fill-opacity="0.5"
+        stroke="#FFB800"
+        stroke-width="4"
+        stroke-miterlimit="16"
+      />
+      <SvgInnerText
+        isMobile={true}
+        textLines={textLines}
+        startYCoord={40}
+        startXCoord={30}
+        step={27}
+      />
     </svg>
   );
 }
