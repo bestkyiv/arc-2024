@@ -5,10 +5,10 @@ import { formatDate } from "@/helpers/date-helper";
 
 export default function TermsOfParticipation() {
   const terms = [
-    "Будь студентом будь-якого українського ВНЗ",
-    `Зареєструйся до ${formatDate(new Date(Constants.PROJECT_REGISTRATION_DEADLINE))}`,
+    "Бути студентом будь-якого українського ВНЗ",
+    `Зареєструватися до ${formatDate(new Date(Constants.PROJECT_REGISTRATION_DEADLINE))}`,
     "Потрапити до команди або сформувати свою (2 - 4 учасника)",
-    "Пройди відбірковий тур змагань",
+    "Пройти відбірковий тур змагань",
   ];
 
   const textStyle = {
