@@ -1,7 +1,7 @@
 import classes from "./registration-button.module.css";
 import CONSTANTS from "../../constants";
 
-export default function RegistrationButton({ gridArea }) {
+export default function RegistrationButton({}) {
   const handleClick = () =>
     window.open(CONSTANTS.REGISTRATION_LINK, "_blank").focus();
 

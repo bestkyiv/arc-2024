@@ -15,14 +15,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
 }
 
 .cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 50px;
 
@@ -47,7 +47,7 @@
     justify-self: start;
 }
 
-.cards > div:nth-child(5){
+.cards > div:nth-child(3){
     grid-column: 1/ span 2;
     justify-self: center;
 }

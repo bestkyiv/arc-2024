@@ -1,28 +1,11 @@
 module.exports = {
-  PROJECT_DATE_FROM: "2024-09-27T14:00:00.000Z",
+  PROJECT_DATE_FROM: "2024-09-27T11:00:00.000Z",
   PROJECT_DATE_TO: "2024-09-30",
-  PROJECT_REGISTRATION_DEADLINE: "2024-09-02",
-  PROJECT_REGISTRATION_DEADLINE_PROLONGED: "2024-09-07",
+  PROJECT_REGISTRATION_DEADLINE: "2024-09-03",
+  PROJECT_REGISTRATION_DEADLINE_PROLONGED: "2024-09-15",
   FORMAT: "offline",
   REGISTRATION_LINK: "https://forms.gle/hx3QaZ9Yjy6oYBudA",
   CATEGORIES: [
-    {
-      header: "Military-Tech",
-      text: [
-        "Відчуй себе техногенним героєм!",
-        "Розробляй інноваційні рішення, які",
-        "допоможуть захистити нашу країну",
-        "і наблизити до перемоги.",
-      ],
-    },
-    {
-      header: "Mechanics",
-      text: [
-        "Зроби залізо рухомим! Роботи,",
-        "машини, механізми – покажи, що",
-        "залізо теж може танцювати.",
-      ],
-    },
     {
       header: "Radio Engineering",
       text: [
