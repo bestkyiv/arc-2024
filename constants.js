@@ -33,8 +33,87 @@ module.exports = {
     },
   ],
   PARTNERS: {
+    MAIN: [
+      {
+        img: "lifecell.svg",
+        alt: "Unicorn",
+        link: "https://www.lifecell.ua/uk/",
+      },
+      {
+        img: "uniprime.svg",
+        alt: "Uniprime",
+        link: "https://www.uniprime.com.ua",
+      },
+      {
+        img: "unicorn.svg",
+        alt: "Unicorn",
+        link: "https://unicorn.com/en",
+      },
+      {
+        img: "melexis.svg",
+        alt: "Unicorn",
+        link: "https://www.melexis.com/en",
+      },
+    ],
+    SECONDARY: [
+      {
+        img: "exchange.svg",
+        alt: "Expert English",
+        link: "https://expertenglish.school",
+      },
+      { img: "kpi.svg", alt: "KPI", link: "https://kpi.ua/" },
+      {
+        img: "blue-yellow.svg",
+        alt: "Blue-yellow",
+        link: "https://www.instagram.com/yellow_blue_ua?igsh=MWxkOTl5NDI5bWxzcg==",
+      },
+      {
+        img: "vidro.svg",
+        alt: "Vidro",
+        link: "https://vidro.lviv.ua",
+      },
+      {
+        img: "ihrova-maysternya.svg",
+        alt: "Ihrova Maysternya",
+        link: "https://ihrova-maysternya.com",
+      },
+      {
+        img: "burunduk.svg",
+        alt: "Burunduk",
+        link: "https://burunduk.in.ua",
+      },
+      {
+        img: "planeta-ihor.svg",
+        alt: "Planeta Ihor",
+        link: "https://planeta-igr.com/ua/",
+      },
+      {
+        img: "best-partner.svg",
+        alt: "BEST",
+        link: "https://best-kyiv.org/",
+      },
+      {
+        img: "belience.svg",
+        alt: "Belience",
+        link: "https://www.instagram.com/belience.ua?igsh=NjY2bDJwazd5MGxv",
+      },
+      {
+        img: "vihola.svg",
+        alt: "Vihola",
+        link: "https://www.vikhola.com/",
+      },
+      {
+        img: "morshynska.svg",
+        alt: "BEST",
+        link: "https://www.morshynska.ua/",
+      },
+    ],
     CAREER: [
-      { img: "melexis.svg", alt: "Melexis", link: "https://www.melexis.com/" },
+      {
+        img: "exchange.svg",
+        alt: "Exchange",
+        link: "https://www.melexis.com/",
+      },
       { img: "kpi.svg", alt: "KPI", link: "https://www.kpi.ua/" },
       // { img: "best.svg", alt: "BEST Kyiv", link: "https://best-kyiv.org/" },
       {

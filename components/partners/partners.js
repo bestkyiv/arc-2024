@@ -1,113 +1,65 @@
 import classes from "./partners.module.css";
 import CONSTANTS from "../../constants";
+import Title from "../title";
 
 export default function Partners() {
   const {
+    MAIN: mainPartners,
     TASK: taskPartners,
+    SECONDARY: secondaryPartners,
     CAREER: careerPartners,
     BARTER: barterPartners,
   } = CONSTANTS.PARTNERS;
   return (
-    <div className={"section" + ` ${classes.partners}`} id={"partners"}>
-      <TaskDesktop partners={taskPartners} />
-      <TaskMobile partners={taskPartners} />
-      <Career partners={careerPartners} />
-      <BarterDesktop partners={barterPartners} />
+    <div className={` ${classes.partners}`} id={"partners"}>
+      <Title title={"Partners"} />
+      <MainDesktop partners={mainPartners} />
+      <SecondaryDesktop
+        partners={secondaryPartners}
+        partnersFirstRow={secondaryPartners.slice(0, 4)}
+        partnersSecondRow={secondaryPartners.slice(4)}
+      />
     </div>
   );
 }
 
-function TaskDesktop({ partners }) {
+function MainDesktop({ partners }) {
   return (
-    <>
-      <div className={classes.container_desktop_task}>
-        <h3 className={classes.header}>Task partners</h3>
-        <div className={classes.row}>
-          {partners.map((partner) => (
-            <a href={partner.link} target={"_blank"} key={partner.img}>
+    <div className={classes.mainPartners}>
+      {partners.map((partner) => (
+        <div className={classes.partner} key={partner.img}>
+          <div className={classes.partner_inner}>
+            <a href={partner.link} target={"_blank"}>
               <img
-                className={classes.img}
                 src={partner.img}
                 alt={partner.alt}
+                className={classes.partnerImg}
               />
             </a>
-          ))}
-        </div>
-      </div>
-    </>
-  );
-}
-
-function TaskMobile() {
-  return (
-    <>
-      <div className={classes.container_mobile}>
-        <h3 className={classes.header_task}>Task partners</h3>
-        <a
-          href={"https://www.lifecell.ua/uk/"}
-          target={"_blank"}
-          className={classes.lifecell}
-        >
-          <img className={classes.img} src={"lifecell.svg"} alt={"Lifecell"} />
-        </a>
-        <a
-          href={"https://www.sombrainc.com/"}
-          target={"_blank"}
-          className={classes.sombra}
-        >
-          <img className={classes.img} src={"sombra.svg"} alt={"Sombra"} />
-        </a>
-        <a
-          href={"https://robotdreams.cc/uk"}
-          target={"_blank"}
-          className={classes.r_d}
-        >
-          <img className={classes.img} src={"r_d.svg"} alt={"r_d"} />
-        </a>
-      </div>
-    </>
-  );
-}
-
-function Career({ partners }) {
-  return (
-    <>
-      <div className={classes.container_desktop}>
-        <h3 className={classes.header}>Career partners</h3>
-        <div className={classes.row_career}>
-          {partners.map((partner) => (
-            <a href={partner.link} target={"_blank"} key={partner.img}>
-              <img
-                className={classes.img_career_desktop}
-                src={partner.img}
-                alt={partner.alt}
-              />
-            </a>
-          ))}
-        </div>
-      </div>
-    </>
-  );
-}
-function BarterDesktop({ partners }) {
-  return (
-    <>
-      <div className={classes.barter}>
-        <div className={classes.container_desktop}>
-          <h3 className={classes.header}>Barter partners</h3>
-          <div className={classes.row_barter}>
-            {partners.map((partner) => (
-              <a href={partner.link} target={"_blank"} key={partner.img}>
-                <img
-                  className={classes.img_career_desktop}
-                  src={partner.img}
-                  alt={partner.alt}
-                />
-              </a>
-            ))}
           </div>
         </div>
-      </div>
-    </>
+      ))}
+    </div>
+  );
+}
+
+function SecondaryDesktop({ partners }) {
+  return (
+    <div className={classes.partnersSecondary}>
+      {partners.map((partner) => (
+        <a
+          key={partner.img}
+          className={classes.partnerSecondary}
+          href={partner.link}
+          target={"_blank"}
+        >
+          <img
+            src={partner.img}
+            alt={partner.alt}
+            className={classes.secondaryPartnerImg}
+          />
+        </a>
+      ))}
+    </div>
   );
 }

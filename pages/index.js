@@ -29,7 +29,7 @@ export default function App() {
         <Format />
         <Categories />
         <TermsOfParticipation />
-        {/*<Partners />*/}
+        <Partners />
         <Organizers />
         {/*<AboutBest />*/}
         <Faq />
