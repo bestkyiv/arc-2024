@@ -29,7 +29,11 @@ function MainDesktop({ partners }) {
       {partners.map((partner) => (
         <div className={classes.partner} key={partner.img}>
           <div className={classes.partner_inner}>
-            <a href={partner.link} target={"_blank"}>
+            <a
+              className={classes.partnerMainLogo}
+              href={partner.link}
+              target={"_blank"}
+            >
               <img
                 src={partner.img}
                 alt={partner.alt}

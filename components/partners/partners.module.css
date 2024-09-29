@@ -44,6 +44,13 @@
     border: #FFBD13 solid 2px;
     background-color: #29193A;
     box-shadow: inset 0 0 8px #FFBD13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerMainLogo{
+    width: 100%;
 }
 
 .partnersSecondary{
